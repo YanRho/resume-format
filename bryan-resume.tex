@@ -1,0 +1,100 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+
+%-----------------------------------------------------------
+% PAGE SETUP
+%-----------------------------------------------------------
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\setlength{\tabcolsep}{0in}
+\addtolength{\topmargin}{-0.3in}
+
+% Custom section format
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-----------------------------------------------------------
+% DOCUMENT START
+%-----------------------------------------------------------
+\begin{document}
+
+%-----------------------------------------------------------
+% HEADER
+%-----------------------------------------------------------
+\begin{center}
+  {\Huge \scshape Bryan Rhoelle Bergenholtz} \\[4pt]
+  \href{mailto:brbergenholtz.19@gmail.com}{brbergenholtz.19@gmail.com} $|$
+  (562) 316-9385 $|$
+  \href{https://linkedin.com/in/YOUR-LINKEDIN}{LinkedIn} $|$
+  \href{https://github.com/YOUR-GITHUB}{GitHub} $|$
+  \href{https://YOUR-PORTFOLIO.com}{Portfolio}
+\end{center}
+
+%-----------------------------------------------------------
+\section{Education}
+\textbf{California State University – Long Beach} \hfill \textit{May 2025} \\
+B.S. in Computer Science
+
+%-----------------------------------------------------------
+\section{Technical Skills}
+\textbf{Languages:} TypeScript, JavaScript, Python, C++, C\#, HTML, CSS \\
+\textbf{Frameworks \& Libraries:} Next.js, React, Node.js, Prisma, ASP.NET, TailwindCSS \\
+\textbf{Databases:} PostgreSQL, MongoDB, MySQL \\
+\textbf{Tools \& Practices:} Git, Jira, Figma, RESTful APIs, Agile/Scrum \\
+\textbf{Cloud \& Systems:} AWS (S3, RDS), Vercel, OpenGL, GLSL
+
+%-----------------------------------------------------------
+\section{Experience}
+\textbf{Terravan Solar} \hfill \textit{June 2023 – May 2024} \\
+\textit{Software Engineer Intern} \\
+\begin{itemize}[leftmargin=*]
+  \item Developed embedded system features to enable real-time battery diagnostics by parsing JSON data over USB serial between Arduino ESP32 and Android devices.
+  \item Integrated and optimized the C++ JdbBms library to communicate with JBD Battery Management Systems (UART), providing live access to voltage, temperature, and charge metrics.
+  \item Collaborated in weekly Agile sprints to implement new features, debug firmware issues, and improve system stability and maintainability.
+\end{itemize}
+
+%-----------------------------------------------------------
+\section{Projects}
+
+\textbf{Alky – Personal Finance Web App} \hfill \textit{Aug 2025 – Nov 2025} \\
+\begin{itemize}[leftmargin=*]
+  \item Designed and built a finance tracker web app using Next.js, TypeScript, and PostgreSQL (Prisma) to manage accounts, categorize transactions, and visualize spending.
+  \item Implemented secure authentication and data isolation with NextAuth, ensuring user-specific access and protected routes.
+  \item Developed dashboards with Recharts and TailwindCSS for visual summaries of income, expenses, and budget trends.
+  \item Deployed to Vercel with a focus on performance and responsive UI across devices.
+\end{itemize}
+
+\textbf{QR8 – Customizable QR Code Generator} \hfill \textit{Nov 2025 – Present} \\
+\begin{itemize}[leftmargin=*]
+  \item Built a web app for generating dynamic QR codes supporting URL, WiFi, vCard, and text modes.
+  \item Implemented gradient customization, color themes, and logo embedding for personalized designs.
+  \item Utilized React hooks and TypeScript for modular state management and responsive layouts.
+  \item Deployed demo version to Vercel for portfolio showcase and LinkedIn presentation.
+\end{itemize}
+
+\textbf{SRB Construction and Engineering Services Website} \hfill \textit{June 2024 – Jan 2025} \\
+\begin{itemize}[leftmargin=*]
+  \item Designed and deployed a responsive company website using Next.js and TailwindCSS, improving the client’s digital presence and accessibility.
+  \item Conducted client meetings, built wireframes in Figma, and iteratively refined layouts based on feedback.
+  \item Deployed final production build to Vercel, ensuring fast load times and mobile responsiveness.
+\end{itemize}
+
+\textbf{DROCSID – CSULB Senior Capstone Project} \hfill \textit{Jan 2024 – Dec 2024} \\
+\begin{itemize}[leftmargin=*]
+  \item Built a real-time chat application with file sharing, authentication, and RESTful APIs using Next.js and Node.js.
+  \item Integrated PostgreSQL (via Prisma ORM) to store chat history and metadata for scalable message retrieval.
+  \item Collaborated using Jira and GitHub to deliver 10+ sprint milestones in an Agile environment.
+  \item Wrote and maintained unit tests for login, file upload, and messaging to ensure system reliability.
+\end{itemize}
+
+%-----------------------------------------------------------
+\end{document}
