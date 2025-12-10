@@ -21,8 +21,13 @@
   {}
   [\vspace{2pt}\titlerule\vspace{3pt}]
 
-% Bullet spacing
-\setlist[itemize]{noitemsep, topsep=1pt, leftmargin=0.15in}
+% Bullet spacing + style (changed here)
+\setlist[itemize]{
+  noitemsep,
+  topsep=1pt,
+  leftmargin=0.15in,
+  label=-- % use en-dash instead of round bullet
+}
 
 % Date alignment macro
 \newcommand{\dateright}[1]{\hfill {\small\textnormal{#1}}}
@@ -42,52 +47,65 @@
 \end{center}
 
 %-----------------------------------------------------------
-\section*{Professional Summary}
-Detail-oriented IT professional with experience in automation, data visualization, Microsoft 365 workflows, and troubleshooting across distributed systems. Strong foundation in scripting, dashboard creation, and process improvement. Passionate about leveraging technology to streamline operations, enhance reporting, and support digital transformation initiatives.
-
-%-----------------------------------------------------------
 \section*{Technical Skills}
-\textbf{Automation & BI:} Power Automate, Power BI, Excel, APIs, JSON \\
+\textbf{Programming Languages:} JavaScript/TypeScript, C\#, HTML, CSS, C++, Python \\
+\textbf{Automation \& BI:} Power Automate, Power BI, Tableau, RStudio, Excel, JSON, APIs \\
 \textbf{Microsoft 365:} Outlook, Teams, SharePoint, OneDrive, Permissions, M365 Admin \\
-\textbf{Scripting & Tools:} Python, SQL, Bash, Git, Jira, PowerShell (basic) \\
-\textbf{Frameworks \& Platforms:} FastAPI, Node.js, Next.js, React \\
+\textbf{Scripting \& Tools:} SQL, Bash, Git, Jira, PowerShell (basic) \\
+\textbf{Frameworks \& Platforms:} FastAPI, Node.js, Next.js, React, Vite \\
 \textbf{Databases:} PostgreSQL (SQL), MongoDB (NoSQL) \\
 \textbf{Cloud:} AWS, Google Cloud Platform (GCP) \\
 \textbf{Soft Skills:} Troubleshooting, documentation, communication, cross-team collaboration
 
+
 %-----------------------------------------------------------
 \section*{Experience}
+
 \textbf{Terravan Solar} \dateright{June 2023 – May 2024}\\
 \textit{Software Engineer Intern}
 \begin{itemize}
-  \item Supported internal engineering workflows by developing embedded diagnostic tools using JSON communication between Arduino ESP32 and Android devices.
-  \item Improved system maintainability by integrating and refining communication libraries for accessing battery metrics (voltage, temperature, charge).
-  \item Participated in Agile sprints, contributing to requirement refinement, issue tracking, and structured problem-solving.
-  \item Documented technical procedures and troubleshooting steps to improve team knowledge sharing.
+  \item Developed embedded diagnostic tools enabling real-time battery monitoring through JSON communication between Arduino ESP32 and Android devices.
+  \item Integrated and improved communication libraries for battery management systems, enhancing reliability and data consistency.
+  \item Participated in Agile sprints, supporting feature development, structured debugging, and collaborative problem-solving.
+  \item Produced internal documentation to streamline onboarding and troubleshooting for the engineering team.
+\end{itemize}
+
+\textbf{Amazon Sortation Warehouse — Part-Time Associate} \dateright{Nov 2020 – Aug 2021}
+\begin{itemize}
+  \item Coordinated with leads and team members to ensure smooth daily workflow in a fast-paced logistics environment.
+  \item Followed safety and warehouse protocols to maintain a secure and efficient work setting.
+  \item Interpreted work orders and sorting instructions with accuracy to support operational efficiency.
+\end{itemize}
+
+\textbf{ARCO AMPM — Part-Time Cashier} \dateright{Jul 2018 – Oct 2020}
+\begin{itemize}
+  \item Delivered customer service by resolving inquiries, assisting with purchases, and handling transactions accurately.
+  \item Addressed and de-escalated customer concerns, providing clear communication and appropriate support.
+  \item Performed cash handling, basic accounting, and register balancing during daily operations.
 \end{itemize}
 
 %-----------------------------------------------------------
 \section*{Projects}
 
-\textbf{Power BI & Data Visualization Work (Academic + Personal)} \dateright{2023 – 2025}
-\begin{itemize}
-  \item Built interactive dashboards visualizing trends such as customer churn, YouTube analytics, and medical datasets.
-  \item Cleaned and transformed datasets using Python, Excel, and SQL for accurate BI reporting.
-  \item Designed reports focused on clarity, decision-making, and operational insights.
-\end{itemize}
-
 \textbf{QR8 – Automation-Ready QR Code System} \dateright{2025 – Present}
 \begin{itemize}
-  \item Created a modular full-stack application using React, Vite, and FastAPI for generating structured QR code data (URL, WiFi, vCard, text).
-  \item Built backend API endpoints designed for automation workflows and potential integration with business tools.
-  \item Implemented clean data handling, input validation, and structured JSON responses.
+  \item Created a modular full-stack application using React, Vite, and FastAPI for generating structured QR code outputs (URL, WiFi, vCard, text).
+  \item Built FastAPI backend endpoints with clean data handling, validation, and JSON responses suitable for automation workflows.
+  \item Developed a polished, responsive UI with customizable QR options including gradients and embedded logos.
 \end{itemize}
 
-\textbf{Alky – Transaction Tracking & Reporting Tool} \dateright{2025}
+\textbf{Alky – Transaction Tracking \& Reporting Tool} \dateright{2025 – Present}
 \begin{itemize}
-  \item Developed a full-stack financial tracking tool enabling users to categorize expenses and view reports.
-  \item Created data dashboards and visual summaries using Recharts for budget insights.
-  \item Focused on clean UI, efficient database queries, and reliable session handling.
+  \item Designed a financial tracking tool enabling categorized expenses, account management, and user session handling.
+  \item Created visual reports and dashboards using Recharts for budgeting and data interpretation.
+  \item Implemented efficient database operations and a user-friendly interface prioritizing clarity and usability.
+\end{itemize}
+
+\textbf{Data Analysis \& Visualization Projects} \dateright{2024 – 2025}
+\begin{itemize}
+  \item Built interactive dashboards using Tableau and RStudio to visualize trends such as churn, medical analytics, and social media performance.
+  \item Cleaned, transformed, and validated datasets using Python, SQL, and Excel for accurate reporting.
+  \item Developed insight-focused visualizations to support decision-making and highlight actionable trends.
 \end{itemize}
 
 %-----------------------------------------------------------
@@ -97,7 +115,7 @@ B.S. in Computer Science
 
 %-----------------------------------------------------------
 \section*{Relevant Coursework}
-Data Visualization • Software Development with Frameworks (ASP.NET MVC + Razor) • Databases • Networks • Algorithms • Operating Systems
+Data Visualization, Software Development with Frameworks (ASP.NET MVC + Razor), Databases, Networks, Algorithms, Operating Systems
 
 %-----------------------------------------------------------
 \end{document}
