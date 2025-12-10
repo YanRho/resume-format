@@ -1,0 +1,103 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[margin=0.6in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{parskip}
+\usepackage{xcolor}
+
+% Header setup
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+
+% Section formatting
+\titlespacing{\section}{0pt}{2pt}{2pt}
+\titleformat{\section}
+  {\bfseries\scshape\large}
+  {}
+  {0em}
+  {}
+  [\vspace{2pt}\titlerule\vspace{3pt}]
+
+% Bullet spacing
+\setlist[itemize]{noitemsep, topsep=1pt, leftmargin=0.15in}
+
+% Date alignment macro
+\newcommand{\dateright}[1]{\hfill {\small\textnormal{#1}}}
+
+\begin{document}
+\pagenumbering{gobble}
+
+%-----------------------------------------------------------
+% HEADER
+%-----------------------------------------------------------
+\begin{center}
+  {\LARGE \textbf{Bryan Rhoelle Bergenholtz}}\\[-1pt]
+  \href{mailto:brbergenholtz.19@gmail.com}{brbergenholtz.19@gmail.com} $|$
+  (562) 316-9385 $|$
+  \href{https://linkedin.com/in/bryanbergenholtz}{LinkedIn} $|$
+  \href{https://github.com/YanRho}{GitHub}
+\end{center}
+
+%-----------------------------------------------------------
+\section*{Professional Summary}
+Detail-oriented IT professional with experience in automation, data visualization, Microsoft 365 workflows, and troubleshooting across distributed systems. Strong foundation in scripting, dashboard creation, and process improvement. Passionate about leveraging technology to streamline operations, enhance reporting, and support digital transformation initiatives.
+
+%-----------------------------------------------------------
+\section*{Technical Skills}
+\textbf{Automation & BI:} Power Automate, Power BI, Excel, APIs, JSON \\
+\textbf{Microsoft 365:} Outlook, Teams, SharePoint, OneDrive, Permissions, M365 Admin \\
+\textbf{Scripting & Tools:} Python, SQL, Bash, Git, Jira, PowerShell (basic) \\
+\textbf{Frameworks \& Platforms:} FastAPI, Node.js, Next.js, React \\
+\textbf{Databases:} PostgreSQL (SQL), MongoDB (NoSQL) \\
+\textbf{Cloud:} AWS, Google Cloud Platform (GCP) \\
+\textbf{Soft Skills:} Troubleshooting, documentation, communication, cross-team collaboration
+
+%-----------------------------------------------------------
+\section*{Experience}
+\textbf{Terravan Solar} \dateright{June 2023 – May 2024}\\
+\textit{Software Engineer Intern}
+\begin{itemize}
+  \item Supported internal engineering workflows by developing embedded diagnostic tools using JSON communication between Arduino ESP32 and Android devices.
+  \item Improved system maintainability by integrating and refining communication libraries for accessing battery metrics (voltage, temperature, charge).
+  \item Participated in Agile sprints, contributing to requirement refinement, issue tracking, and structured problem-solving.
+  \item Documented technical procedures and troubleshooting steps to improve team knowledge sharing.
+\end{itemize}
+
+%-----------------------------------------------------------
+\section*{Projects}
+
+\textbf{Power BI & Data Visualization Work (Academic + Personal)} \dateright{2023 – 2025}
+\begin{itemize}
+  \item Built interactive dashboards visualizing trends such as customer churn, YouTube analytics, and medical datasets.
+  \item Cleaned and transformed datasets using Python, Excel, and SQL for accurate BI reporting.
+  \item Designed reports focused on clarity, decision-making, and operational insights.
+\end{itemize}
+
+\textbf{QR8 – Automation-Ready QR Code System} \dateright{2025 – Present}
+\begin{itemize}
+  \item Created a modular full-stack application using React, Vite, and FastAPI for generating structured QR code data (URL, WiFi, vCard, text).
+  \item Built backend API endpoints designed for automation workflows and potential integration with business tools.
+  \item Implemented clean data handling, input validation, and structured JSON responses.
+\end{itemize}
+
+\textbf{Alky – Transaction Tracking & Reporting Tool} \dateright{2025}
+\begin{itemize}
+  \item Developed a full-stack financial tracking tool enabling users to categorize expenses and view reports.
+  \item Created data dashboards and visual summaries using Recharts for budget insights.
+  \item Focused on clean UI, efficient database queries, and reliable session handling.
+\end{itemize}
+
+%-----------------------------------------------------------
+\section*{Education}
+\textbf{California State University – Long Beach} \dateright{May 2025}\\
+B.S. in Computer Science
+
+%-----------------------------------------------------------
+\section*{Relevant Coursework}
+Data Visualization • Software Development with Frameworks (ASP.NET MVC + Razor) • Databases • Networks • Algorithms • Operating Systems
+
+%-----------------------------------------------------------
+\end{document}
