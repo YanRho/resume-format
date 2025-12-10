@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.12.9)  10 DEC 2025 00:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.12.9)  10 DEC 2025 00:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**resume1.tex
-(./resume1.tex
+**resume.tex
+(./resume.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -248,27 +248,27 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count278
 \l__pdf_internal_box=\box53
 )
-(./resume1.aux)
-\openout1 = `resume1.aux'.
+(./resume.aux)
+\openout1 = `resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -304,10 +304,10 @@ LaTeX Font Info:    ... okay on input line 30.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 30.
-(./resume1.out) (./resume1.out)
+Package hyperref Info: Link coloring OFF on input line 35.
+(./resume.out) (./resume.out)
 \@outlinefile=\write3
-\openout3 = `resume1.out'.
+\openout3 = `resume.out'.
 
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -325,18 +325,22 @@ Package hyperref Info: Link coloring OFF on input line 30.
 \everyMPtoPDFconversion=\toks22
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 38.
+(Font)              <7> on input line 43.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 38.
+(Font)              <5> on input line 43.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 45.
+(Font)              using `OT1/cmr/bx/n' instead on input line 50.
 
+! Misplaced alignment tab character &.
+l.56 \textbf{Automation \& Tools:} Power BI &
+                                              Automate, Tableau, RStudio, Ex...
+
+? 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/
-dvips/cm-super/cm-super-ts1.enc}] (./resume1.aux)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./resume.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -345,28 +349,27 @@ L3 programming layer <2024-01-22>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `resume1.out' has not changed.
+Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 9724 strings out of 474222
- 149559 string characters out of 5748733
- 1942975 words of memory out of 5000000
- 31902 multiletter control sequences out of 15000+600000
- 560270 words of font info for 43 fonts, out of 8000000 for 9000
+ 9720 strings out of 474222
+ 149488 string characters out of 5748733
+ 1944975 words of memory out of 5000000
+ 31900 multiletter control sequences out of 15000+600000
+ 559935 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,1196b,437s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,1195b,437s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf/fonts/type1/public/
-cm-super/sfrm1000.pfb>
-Output written on resume1.pdf (1 page, 99706 bytes).
+fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on resume.pdf (1 page, 95059 bytes).
 PDF statistics:
- 52 PDF objects out of 1000 (max. 8388607)
- 34 compressed objects within 1 object stream
+ 46 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

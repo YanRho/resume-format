@@ -1,0 +1,122 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[margin=0.6in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{parskip}
+\usepackage{xcolor}
+
+% Header setup
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+
+% Section formatting
+\titlespacing{\section}{0pt}{2pt}{2pt}
+\titleformat{\section}
+  {\bfseries\scshape\large}
+  {}
+  {0em}
+  {}
+  [\vspace{2pt}\titlerule\vspace{3pt}]
+
+% Bullet spacing + style
+\setlist[itemize]{
+  noitemsep,
+  topsep=1pt,
+  leftmargin=0.15in,
+  label=-- % en-dash bullet
+}
+
+% Date alignment
+\newcommand{\dateright}[1]{\hfill {\small\textnormal{#1}}}
+
+\begin{document}
+\pagenumbering{gobble}
+
+%-----------------------------------------------------------
+% HEADER
+%-----------------------------------------------------------
+\begin{center}
+  {\LARGE \textbf{Bryan Rhoelle Bergenholtz}}\\[-1pt]
+  \href{mailto:brbergenholtz.19@gmail.com}{brbergenholtz.19@gmail.com} $|$
+  (562) 316-9385 $|$
+  \href{https://linkedin.com/in/bryanbergenholtz}{LinkedIn} $|$
+  \href{https://github.com/YanRho}{GitHub}
+\end{center}
+
+%-----------------------------------------------------------
+\section*{Technical Skills}
+\textbf{Operating Systems:} Windows 10/11, macOS, Linux (basic) \\
+\textbf{Microsoft 365 / Admin:} Outlook, Teams, SharePoint, OneDrive, O365 \\
+\textbf{Networking:} DHCP, DNS, TCP/IP, VPN, LAN/WAN basics \\
+\textbf{Hardware Support:} PC/Mac/Linux troubleshooting, printers, scanners, peripherals, device setup \\
+\textbf{Programming \& Scripting:} JavaScript/TypeScript, Python, SQL, Bash, PowerShell (basic), C\#, C++ \\
+\textbf{Automation \& Tools:} Power BI, Power Automate, Tableau, RStudio, Excel, JSON, APIs \\
+\textbf{Frameworks:} FastAPI, Node.js, Next.js, React, Vite \\
+\textbf{Databases:} PostgreSQL (SQL), MongoDB (NoSQL) \\
+\textbf{Cloud:} AWS, Google Cloud Platform (GCP) \\
+\textbf{Soft Skills:} Customer support, communication, documentation, troubleshooting, collaboration
+
+%-----------------------------------------------------------
+\section*{Experience}
+
+\textbf{Terravan Solar} \dateright{June 2023 – May 2024}\\
+\textit{Software Engineer Intern}
+\begin{itemize}
+  \item Assisted engineers with device setup, firmware updates, and diagnosing communication issues between ESP32 and Android devices.
+  \item Troubleshot connectivity, configuration, and data transmission problems using serial tools and JSON debugging.
+  \item Created internal documentation to support onboarding and knowledge transfer across the engineering team.
+  \item Participated in Agile sprints and collaborated cross-functionally to resolve issues quickly.
+\end{itemize}
+
+\textbf{Amazon Sortation Warehouse — Part-Time Associate} \dateright{Nov 2020 – Aug 2021}
+\begin{itemize}
+  \item Maintained workflow accuracy by interpreting digital sorting instructions and resolving scan errors.
+  \item Communicated with leads to resolve operational issues in a high-volume, fast-paced environment.
+  \item Followed safety and equipment procedures, supporting warehouse technology and device usage.
+\end{itemize}
+
+\textbf{ARCO AMPM — Part-Time Cashier} \dateright{Jul 2018 – Oct 2020}
+\begin{itemize}
+  \item Provided customer support and resolved issues related to transactions, devices, and store equipment.
+  \item Performed cash handling, register balancing, and incident reporting with accuracy.
+  \item Addressed and de-escalated customer concerns with clear communication and professionalism.
+\end{itemize}
+
+%-----------------------------------------------------------
+\section*{Projects}
+
+\textbf{QR8 – Automation-Ready QR Code System} \dateright{2025 – Present}
+\begin{itemize}
+  \item Built a modular full-stack application using React, Vite, and FastAPI for generating structured QR code data.
+  \item Implemented validated backend endpoints and clean JSON responses suitable for business automation.
+  \item Developed a responsive UI with customizable QR options such as gradients and logos.
+\end{itemize}
+
+\textbf{Alky – Transaction Tracking \& Reporting Tool} \dateright{2025 – Present}
+\begin{itemize}
+  \item Designed a personal finance tool supporting categorized expense tracking and account management.
+  \item Built dashboards using Recharts to display user-friendly budget and spending summaries.
+  \item Implemented efficient SQL queries and session handling for a smooth user experience.
+\end{itemize}
+
+\textbf{Data Analysis \& Visualization Projects} \dateright{2024 – 2025}
+\begin{itemize}
+  \item Created analytical dashboards in Tableau and RStudio for churn, medical, and social analytics datasets.
+  \item Cleaned, validated, and transformed datasets using Python, SQL, and Excel.
+  \item Produced clear, insight-driven visualizations for academic and personal research.
+\end{itemize}
+
+%-----------------------------------------------------------
+\section*{Education}
+\textbf{California State University – Long Beach} \dateright{May 2025}\\
+B.S. in Computer Science
+
+%-----------------------------------------------------------
+\section*{Relevant Coursework}
+Data Visualization, Software Development with Frameworks (ASP.NET MVC + Razor), Databases, Networks, Data Structures. Algorithms, Operating Systems
+
+%-----------------------------------------------------------
+\end{document}
