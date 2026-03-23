@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.11.10)  10 NOV 2025 18:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.11.10)  17 FEB 2026 16:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -354,7 +354,7 @@ Package rerunfilecheck Info: File `bryan-resume.out' has not changed.
 Here is how much of TeX's memory you used:
  9724 strings out of 476182
  149646 string characters out of 5795594
- 1941975 words of memory out of 5000000
+ 1945975 words of memory out of 5000000
  31650 multiletter control sequences out of 15000+600000
  560270 words of font info for 43 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -366,7 +366,7 @@ re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on bryan-resume.pdf (1 page, 92112 bytes).
+Output written on bryan-resume.pdf (1 page, 94152 bytes).
 PDF statistics:
  52 PDF objects out of 1000 (max. 8388607)
  35 compressed objects within 1 object stream
