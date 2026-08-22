@@ -1,0 +1,147 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[
+  left=0.50in,
+  right=0.50in,
+  top=0.40in,
+  bottom=0.40in
+]{geometry}
+
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+
+%-----------------------------------------------------------
+% PAGE SETUP
+%-----------------------------------------------------------
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+% Section formatting
+\titlespacing{\section}{0pt}{5pt}{3pt}
+
+\titleformat{\section}
+  {\bfseries\scshape\large}
+  {}
+  {0em}
+  {}
+  [\vspace{1pt}\titlerule\vspace{2pt}]
+
+% Bullet formatting
+\setlist[itemize]{
+  noitemsep,
+  topsep=2pt,
+  parsep=0pt,
+  partopsep=0pt,
+  leftmargin=0.17in,
+  label=--
+}
+
+% Date alignment
+\newcommand{\dateright}[1]{%
+  \hfill{\small\textnormal{#1}}%
+}
+
+%-----------------------------------------------------------
+\begin{document}
+\pagenumbering{gobble}
+
+%-----------------------------------------------------------
+% HEADER
+%-----------------------------------------------------------
+\begin{center}
+  {\LARGE\textbf{Bryan Rhoelle Bergenholtz}}\\[-1pt]
+  \href{mailto:brbergenholtz.19@gmail.com}
+  {brbergenholtz.19@gmail.com}
+  $|$ (562) 316-9385
+  $|$ \href{https://linkedin.com/in/bryanbergenholtz}{LinkedIn}
+  $|$ \href{https://github.com/YanRho}{GitHub}
+  $|$ \href{https://yanrho.vercel.app/}{Portfolio}
+\end{center}
+
+\vspace{-6pt}
+
+%-----------------------------------------------------------
+\section*{Education}
+
+\textbf{California State University -- Long Beach}
+\dateright{May 2025}\\[-1pt]
+Bachelor of Science in Computer Science
+
+%-----------------------------------------------------------
+\section*{Technical Skills}
+
+\textbf{Frontend:}
+React, Next.js, TypeScript, JavaScript, HTML5, CSS, Tailwind CSS, Responsive Design\\
+\textbf{Backend \& APIs:}
+Node.js, FastAPI, REST APIs, JSON, Prisma\\
+\textbf{Databases:}
+PostgreSQL, MySQL, MongoDB\\
+\textbf{AI Development:}
+Codex, Claude, ChatGPT, GitHub Copilot, AI-Assisted Development Workflows\\
+\textbf{Tools \& Deployment:}
+Git, GitHub, Vercel, Linux, Bash, Jira, Figma, AWS, GCP\\
+\textbf{Engineering Practices:}
+Component-Based Architecture, Debugging, Code Reviews, Agile/Scrum, SDLC
+
+%-----------------------------------------------------------
+\section*{Experience}
+
+\textbf{Terravan Solar}
+\dateright{June 2023 -- May 2024}\\[-1pt]
+\textit{Software Engineer Intern}
+
+\begin{itemize}
+  \item Developed software features supporting real-time communication between ESP32 embedded systems and Android applications using structured JSON data.
+  
+  \item Integrated and debugged C++ communication functionality for battery management systems, validating data flow across hardware and application components.
+  
+  \item Collaborated with engineers in Agile sprints to implement features, troubleshoot defects, document system behavior, and improve maintainability.
+\end{itemize}
+
+%-----------------------------------------------------------
+\section*{Projects}
+
+\textbf{Kinethic -- Workout Tracking Web Application}
+\dateright{2026 -- Present}
+
+\begin{itemize}
+  \item Developed a responsive, mobile-first workout tracking application using Next.js, React, TypeScript, and modern component-based frontend architecture.
+  
+  \item Built reusable interfaces for workout sessions, exercise selection, user profiles, rest timers, workout history, and progression recommendations.
+  
+  \item Used AI coding tools including Codex and Claude to accelerate implementation, refactoring, debugging, and documentation while reviewing and validating generated changes through local testing and Git workflows.
+  
+  \item Deployed the application with Vercel and iteratively refined responsive layouts and user flows across mobile and desktop experiences.
+\end{itemize}
+
+\vspace{2pt}
+
+\textbf{DROCSID -- CSULB Senior Capstone Project}
+\dateright{Jan 2024 -- Dec 2024}
+
+\begin{itemize}
+  \item Built a real-time web application with authentication, messaging, file sharing, and REST API integration using React and Node.js.
+  
+  \item Integrated PostgreSQL through Prisma for persistent storage of users, messages, files, and application metadata.
+  
+  \item Collaborated in an Agile team using GitHub and Jira for sprint planning, code reviews, debugging, feature development, and technical documentation.
+\end{itemize}
+
+\vspace{2pt}
+
+\textbf{SRB Construction and Engineering Services Website}
+\dateright{June 2024 -- Jan 2025}
+
+\begin{itemize}
+  \item Developed and deployed a responsive company website using Next.js and Tailwind CSS with reusable UI components and mobile-friendly layouts.
+  
+  \item Translated client requirements into Figma prototypes and production interfaces through iterative design reviews, testing, and feedback.
+\end{itemize}
+
+\end{document}
